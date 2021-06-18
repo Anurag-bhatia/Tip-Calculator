@@ -1,0 +1,205 @@
+body {
+    font-family:  sans-serif;
+    background: #8E0E00;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #ff5e62, #ff9966);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #E100FF, #7F00FF);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+  }
+
+  .menu{
+    background-color: #f7f7f7;
+    position: absolute;
+    top: 0rem;
+    width: 100%;
+    right: 0rem;
+    height: 60px;
+  
+  }
+  #menutxt{
+    
+    font: 25px sans-serif;
+    position: relative;
+    bottom: 10px;
+  }
+
+  #menubtn {
+    width: 180px;
+    height: 45px;
+    position: relative;
+    left: 20em;
+    bottom: 5em;
+  }
+  
+  #container {
+    position: absolute;
+    left: 40em;
+    top: 4em;
+    height: 525px;
+    width: 360px;
+    margin: 100px auto;
+    background: #f7f7f7;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.12);
+    border-radius: 25px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+  }
+  
+  h1 {
+    background: #121212;
+    color: #f2f3f4;
+    margin: 0;
+    padding: 10px 100px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  
+  form input[type="text"] {
+    width: 90px;
+  }
+  
+  input {
+    padding-left: 20px;
+  }
+  
+  #billamt {
+    font-size: 15px;
+    color: #2980b9;
+    
+    background-color: white;
+    width: 60%;
+    padding: 5px 5px 8px 8px;
+    border: 2px solid #121212;
+    border-radius: 3px;
+  }
+  
+  
+  
+  #peopleamt {
+    width: 60%;
+    padding: 5px 5px 8px 8px;
+    margin-left: 20px;
+    color: #2980b9;
+    background-color: white;
+    border: 2px solid #121212;
+    font-size: 15px;
+    border-radius: 3px;
+  }
+
+  
+  .dollarSign {
+    display: inline;
+  }
+  
+  #serviceQual {
+    padding: 6px 6px 10px 10px;
+    width: 60%;
+    font-size: 15px;
+    background-color: white;
+    border: 2px solid #121212;
+    border-radius: 3px;
+
+  }
+  #a, #b,#c,#d,#e,#f {
+    color: black;
+  }
+
+  
+  button {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    background: -webkit-linear-gradient(to left, #E100FF, #7F00FF);
+    background: linear-gradient(to left, #E100FF, #7F00FF);
+    border-radius: 12px;
+    width: 180px;
+    height: 50px;
+    font-size: 15px;
+    color: white;
+    border: none;
+  }
+  
+  button:hover {
+
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    background-color: #121212;
+  }
+  
+  
+  #totalTip {
+    font-size: 30px;
+    margin-top: 5px;
+    text-align: center;
+  }
+  
+  #totalTip span  {
+    color: #2980b9;
+    font-size: 30px;
+    margin-top: 5px;
+    text-align: center;
+  }
+
+  #totalTip:before {
+    content: "Tip amount";
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    text-transform: uppercase;
+  }
+  
+  #totalTip sup {
+    font-size: 20px;
+    top: -18px;
+  }
+  
+  #totalTip small {
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+  }
+
+
+  .darkmode{
+    background: linear-gradient(to left, #000000, #434343);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+  }
+  .darkmode .menu{
+    background-color: #434343;
+
+  }
+  .darkmode .menutxt:after{
+    content: 'light mode';
+  }
+  .darkmode h1{
+    background-color: #B3B3B3;
+    color: #121212;
+  }
+  .darkmode #container{
+    background-color: #434343;
+  }
+  .darkmode button{
+    background: linear-gradient(to left, #b3b3b3, #b3b3b3);
+    color: black;
+  }
+  .darkmode #billamt{
+    background-color: #b3b3b3;
+    color: #121212;
+  }
+  .darkmode #peopleamt{
+    background-color: #b3b3b3;
+    color: #121212;
+  }
+  .darkmode #serviceQual{
+    background-color: #b3b3b3;
+    color: #121212;
+  }
+  #totalTip span  {
+    color: #f7f7f7;
+  }
